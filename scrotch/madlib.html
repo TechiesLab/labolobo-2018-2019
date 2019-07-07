@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>c'est l'histoire de la vie</title>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+ <body>
+<h1>l'histoire de la vie</h1>
+<form>
+	<input type="text" id="firstname" placeholder="prenom de garcon" ><br><br>
+
+	<input type="text" size=45 id="thing" placeholder="objet avec 'sa' ou 'son' en fonction de genre" ><br> <br>	
+
+	<input type="text" size=45 id="place" placeholder="lieu avec 'sa' ou 'son' en fonction de son genre" ><br> <br>	
+	
+	<input type="text"size=35 id="firstverb" placeholder="verbe  a l'imparfait a la 3pers. du sing." ><br><br>	
+	<input type="text"size=60 id="secondverb" placeholder="'le' ou 'la' en fonction du genre de l'objet +  verbe a l'infinitif" ><br><br>
+
+	<input type="button" id="submit" value="pere castor raconte moi l'histoire de la vie">	
+</form>
+<script type="text/javascript">
+	function createStory() {
+ const story = `XXX chetchait XXX dans XXX car il XXX pour XXX`
+	};
+ const submitButton = document.getElementById("submit");
+  submitButton.addEventListener("click",createStory);
+</script>
+</body>
+</html>

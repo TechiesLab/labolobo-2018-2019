@@ -1,0 +1,47 @@
+#division{
+	width: 32%;
+	margin: auto;
+	justify-content: center;
+}	
+
+#meilleurjeudumonde{
+	text-align: center;	
+	font-family: 'Luckiest Guy', cursive;
+}
+
+
+h2{
+	width: 60%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#couleur{
+
+    background-image: radial-gradient(circle at top left,#00487c,#1ac8ed,#ffffff );
+    background-repeat: no-repeat;
+    background-size: cover;
+
+ }
+#image{
+	width: 400px;
+	height: 350px;
+	margin: auto;
+	border: 7px solid black;
+	display: flex;
+	justify-content: center
+}
+
+.pres{
+	
+		color:blue;
+		font-weight: bold;
+
+	
+}
+
+#text{
+	text-align: center;
+
+
+}

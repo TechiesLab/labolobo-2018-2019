@@ -1,0 +1,24 @@
+body{
+	background-color: #7a2793
+}
+#firstname{
+		background-color: #7ad8e2
+}
+#place{
+		background-color: #7ad8e2
+}
+#thing{
+		background-color: #7ad8e2
+}
+#firstverb{
+		background-color: #7ad8e2
+}
+#secondverb{
+		background-color: #7ad8e2
+}
+#submit{
+		background-color: #3e4de6
+}
+#submit:hover{
+	background-color: #7ad8e2
+}

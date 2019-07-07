@@ -1,0 +1,40 @@
+body{
+	background-color: #fdfffc;
+	font-family: 'Pacifico', cursive;
+}
+
+h1,h2,h3{
+	text-align: right;
+	margin-right: 40px;
+	font-size: 35px;
+	
+
+}
+p{
+
+	margin-right: 40px;
+	font-size: 25px;
+	margin-top: 200px;
+	    
+
+	
+}
+
+
+img{
+	width:40%;
+	height:50%;
+	margin-right: 50px;
+	/*padding-bottom: 650px;*/
+}
+
+.a{
+margin-right: 200px;
+margin-left:200px;
+
+
+}
+
+.r{
+	margin-top: 70px;
+}

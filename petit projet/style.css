@@ -1,0 +1,37 @@
+body {
+	background-color: #e60000;
+	font-family: 'Spicy Rice', cursive;
+}
+
+#title {
+		text-align: center;
+}
+
+#button{
+	display: flex;
+	margin-left: 45%;
+	margin-top: 200px;
+	width: 7%;
+	color : #29a329;
+}
+a {
+	text-decoration: none;
+	background-color: white;
+	padding: 15px;
+	border-radius: 10px;
+}
+
+#christmas{
+	display: flex;
+	justify-content: center;
+}
+
+
+.invisible{
+	visibility: hidden;
+}
+
+.visible{
+	visibility: visible;
+}
+

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Christmas 2018</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1 id="title" style="color: #29a329"> Merry Christmas</h1>
+	<a href="#" id="button">santa claus</a>
+	<img id="christmas" class="invisible" src="http://lenervee.com/images/courriers/pere-noel.png">
+
+
+<script>
+	let button = document.getElementById('button');
+	console.log(button);
+
+	let christmas = document.getElementById('christmas');
+
+	button.addEventListener("click", function( event ) {
+		// display the current click count inside the clicked div
+	button.classList.toggle("invisible");
+	christmas.classList.toggle("visible");
+
+	}, false);
+
+	christmas.addEventListener("click", function( event ) {
+	christmas.classList.toggle("visible");
+	button.classList.toggle("invisible");
+	}, false);
+
+	</script>
+
+</body>
+</html>

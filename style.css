@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'minimalust';
+  src: url('fonts/minimalust/Minimalust Regular.ttf');
+}
+
+@font-face {
+  font-family: 'space_mono';
+  src: url('fonts/space_mono/SpaceMono-Regular.ttf');
+}
+
+h1 {
+  font-family: minimalust;
+}
+
+h2, a {
+  font-family: space_mono;
+}
+
+#intro {
+  text-align: center;
+  padding: 5vw 0vw;
+}
+
+.card-img-top {
+  padding: 1.5vw;
+}
+
+
